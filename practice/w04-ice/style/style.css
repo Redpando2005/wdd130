@@ -1,0 +1,12 @@
+body {
+    background-color: pink;
+    margin: 0 auto;
+}
+
+h1 {
+    font: sans-serif;
+}
+
+img {
+    max-width: 500px;
+}
