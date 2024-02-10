@@ -1,0 +1,39 @@
+
+.images {
+    background-color: grey;
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titlecard {
+    text-align: center;
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.desk {
+    border-radius: 50%;
+    max-width: 300px;
+    border: 20px solid black;
+}
+
+.graphic {
+    border-radius: 50%;
+    max-width: 300px;
+    border: 20px solid black;
+}
+
+.person {
+    border-radius: 50%;
+    max-width: 300px;
+    border: 20px solid black;
+}
+
+.titlecard img {
+    display: block;
+}
+
+.images img {
+    margin: 20px;
+}
