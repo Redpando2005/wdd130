@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+#post {
+    margin: 1em auto;
+    max-width: 300px;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+}
+
+#main-content {
+    text-align: center;
+    padding: 1em;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    background-color: rgb(70, 149, 213);
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
