@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brody Cartwright | Personal Portfolio | Mobility in games</title>
+    <link rel="stylesheet" href="styles/mobility.css">
+    <style>
+        .hide1, .hide2 {
+          display: none;
+        }
+            
+        #dash:hover + .hide1 {
+          display: block;
+          color: red;
+        }
+
+        #walljump:hover + .hide2 {
+            display: block;
+            color: red;
+        }
+        </style>
 </head>
 <body>
+        
     <div id="content">
         <header>
             <a id="logo_link" href="index.html">
@@ -19,7 +36,9 @@
         </header>
         <main>
             <img id="dash" src="images/Screenshot 2024-03-02 at 5.11.19 PM.png" alt="Dash code" width="500">
+            <div class="hide1">Dash System Code</div>
             <img id="walljump" src="images/Screenshot 2024-03-02 at 5.12.49 PM.png" alt="Wall jump code" width="500">
+            <div class="hide2">Wall Jump Code</div>
             <div id="context">
                 <p>Working with a group in BYU-I Video Game Design Society, I was mainly in charge of the games mobility including, dash system and wall jump. The games focus is a "Hack and Slash", which are typically more fast paced games. Keeping this in mind I made sure to balance the timing between dashes and how powerful of a wall jump we needed. I also took into consideration that another member was in charge of a grappling hook, and how that would affect my design.</p>
             </div>
