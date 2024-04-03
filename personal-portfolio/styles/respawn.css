@@ -63,6 +63,22 @@ footer p {
     font-size: 1.2em;
 }
 
+.hide1, .hide2 {
+    display: none;
+}
+
+#editor_view:hover + .hide1 {
+    display: block;
+    color: #69140E;
+    grid-column: 1/2;
+}
+
+  #game_view:hover + .hide2 {
+      display: block;
+      color: #69140E;
+      grid-column: 2/3;
+}
+
 #videos {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -71,32 +87,16 @@ footer p {
     padding-top: 50px;
 }
 
-.hide1, .hide2 {
-    display: none;
+#game_view {
+    grid-row: 1/2;
 }
-      
-  #dash:hover + .hide1 {
-    display: block;
-    color: #69140E;
-    grid-column: 1/2;
-  }
 
-  #walljump:hover + .hide2 {
-      display: block;
-      color: #69140E;
-      grid-column: 2/3;
-  }
-
-  #walljump {
-    grid-row: 1/2;
-  }
-
-  #dash {
+#editor_view {
     grid-column: 1/2;
     grid-row: 1/2;
-  }
+}
 
-  #context {
+#context {
     font-size: 25px;
     text-align: center;
     grid-row: 3/4;

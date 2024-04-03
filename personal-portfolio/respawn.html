@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brody Cartwright | Personal Portfolio | Respawn System</title>
+    <link rel="stylesheet" href="styles/respawn.css">
 </head>
 <body>
     <div id="content">
@@ -18,8 +19,16 @@
             </nav>
         </header>
         <main>
-            <img id="editor_view" src="images/Screenshot 2024-03-02 at 5.20.01 PM.png" alt="editor view" width="500">
-            <img id="game_view" src="images/Screenshot 2024-03-02 at 5.21.11 PM.png" alt="Wall jump code" width="500">
+            <div id="videos">
+                <iframe id='editor_view' width="500" height="350"
+                    src="https://www.youtube.com/embed/UH4Ea5T3kds?autoplay=1">
+                </iframe>
+                <div class="hide1">Respawn Code</div>
+                <iframe id='game_view' width="500" height="350"
+                    src="https://www.youtube.com/embed/JoYgNaS8Ov0?autoplay=1">
+                </iframe>
+                <div class="hide2">Respawn System</div>
+            </div>
             <div id="context">
                 <p>For my groups project I am currently working on a respawn system so that when our Character dies they have a place to come back to and save progress. I landed on doing a collision based checkpoint that the player can be respawned to so that they wouldn't have to worry about hitting a checkpoint manually while surviving.</p>
             </div>
